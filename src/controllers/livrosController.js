@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 const Livro = require('../models/livrosModel')
-require('dotenv').config({path: 'Modulo 9/Atividades/atividade1/src/.env'});
+require('dotenv').config({path: 'Modulo 11/Atividades/atividade1/src/.env'});
 mongoose.connect(process.env.MONGO_URL)
 
 
